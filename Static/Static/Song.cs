@@ -66,6 +66,18 @@ public class Song
         this.genre = genre;
         this.score = score;
     }
+
+    //constructor por datos
+    public Song (string datos)
+    {
+        string[] splittedData = datos.Split('-');
+        this.name = splittedData[0];
+        this.author = splittedData[1];
+        this.duration = int.Parse(splittedData[2]);
+        this.year = int.Parse(splittedData[3]);
+        this.genre = (Genre) int.Parse(splittedData[4]);
+        this.score = int.Parse(splittedData[5]);
+    }
     #endregion
 
 

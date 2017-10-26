@@ -1,0 +1,8 @@
+cancion1-autor1-34-1998-7-3
+cancion1-autor1-67-2008-1-2
+cancion3-autor3-45-2004-2-5
+cancion1-autor1-34-2000-7-3
+
+*+++*
+
+NOMBRELISTA-cancion1:autor1,cancion1:autor1,cancion3:autor3,cancion1:autor1,nombrelista2-cancion1:autor1,cancion1:autor1,cancion3:autor3,cancion1:autor1,nombreLISTA3-cancion1:autor1,cancion1:autor1,cancion3:autor3,cancion1:autor1,

@@ -24,6 +24,23 @@ public class Playlist
         this.songCount = songCount;
         this.songs = songs;
     }
+
+    public Playlist(string datos)
+    {
+        string[] splittedData = datos.Split('-');
+        name = splittedData[0];
+        string[] splittedSongs = splittedData[1].Split(',');
+        songs = new List<Song>();
+        foreach (string songStrin in splittedSongs)
+        {
+            string[] splittedSong = songStrin.Split(':');
+            string songName = splittedSongs[0];
+            string authorName = splittedSongs[1];
+
+            //Hay que crear un metodo de busqueda para sacar el tipo cancion
+            Musify.GetSongByNameAndAuthor(songName, authorName);
+        }
+    }
     #endregion
 
     //MEDIA DURACION

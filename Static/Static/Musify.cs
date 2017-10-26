@@ -4,11 +4,13 @@ using System.IO;
 
 public static class Musify
 {
+
+    private const string ruta = "../../Resources/Ejercicio.txt";
     //MIEMBROS
     #region miembros
     private static List<Song> songs;
 
-    private static List<Playlist> playlist;
+    private static List<Playlist> playlists;
     #endregion
 
     //GETTERS Y SETTERS
@@ -19,10 +21,10 @@ public static class Musify
         set { songs = value; }
     }
 
-    public static List<Playlist> Playlist
+    public static List<Playlist> Playlists
     {
-        get { return playlist; }
-        set { playlist = value; }
+        get { return playlists; }
+        set { playlists = value; }
     }
 
     #endregion
@@ -32,7 +34,6 @@ public static class Musify
     //FUNCION EXPORT
     public static void Export()
     {
-        string ruta = "../../Resources/Ejercicio.txt";
         string contenidoCanciones = ConvertSongsToString();
         string contenidoPlaylist = ConvertPlayListToString();
         string datosCompletos = "";
@@ -41,13 +42,17 @@ public static class Musify
             //SIEMPRE PONER LA RUTA DONDE SE QUIERE QUE SE CREE
             StreamWriter fichero = File.CreateText(ruta);
             datosCompletos += contenidoCanciones;
-            fichero.WriteLine("\n*+++*\n");
-            datosCompletos += contenidoPlaylist;
+            fichero.WriteLine(datosCompletos);
+            fichero.WriteLine("*+++*\n");
+
+            datosCompletos = contenidoPlaylist;
+            fichero.WriteLine(datosCompletos);
             fichero.Close();
+            Console.WriteLine("Exportacion completada");
         }
         catch (Exception e)
         {
-            Console.WriteLine("Fichero no encontrado" + e);
+            Console.WriteLine("Error al exportar los datos" + e);
         }
     }
 
@@ -55,13 +60,14 @@ public static class Musify
     private static string ConvertSongsToString()
     {
         string contenido = "";
+
         foreach (Song s in songs)
         {
             string contCancion = "";
-            contCancion = string.Format("{0}-{1}-{2}-{3}-{4}-{5}", s.Name, s.Author, s.Duration, s.Year, s.Genre, s.Score);
+            contCancion = string.Format("{0}-{1}-{2}-{3}-{4}-{5}", s.Name, s.Author, s.Duration, s.Year,(int)( s.Genre), s.Score);
             contCancion += "\n";
 
-            contenido = contCancion;
+            contenido += contCancion;
         }
         return contenido;
     }
@@ -71,44 +77,140 @@ public static class Musify
     {
         string contenido = "";
 
-        foreach (Playlist play in playlist)
+        foreach (Playlist play in playlists)
         {
             string conteniPlaylis = "";
             string playListName = play.Name;
             string songList = "";
             foreach (Song s in play.Songs)
             {
-                string songData = string.Format("{0}:{1}",s.Name,s.Author);
+                string songData = string.Format("{0}:{1}", s.Name, s.Author);
                 songList += songData + ",";
             }
 
-            conteniPlaylis += string.Format("{0}:{1}", play.Name, songList);
-            contenido += conteniPlaylis + "\n";
+            conteniPlaylis += string.Format("{0}-{1}", play.Name, songList);
+            contenido += conteniPlaylis;
         }
         return contenido;
     }
     #endregion
 
-
     //FUNCIONES IMPORT
     #region FuncionesImport
+    //IMPORT
+    public static void Import()
+    {
+        //leo el fichero y lo troceo en lineas
+        List<string> lineas = ReadFile(ruta);
+        //listas para almacenar canciones y playlist
+        List<string> songsLineas = new List<string>();
+        List<string> playlistsLineas = new List<string>();
+        //para comprobar si son playlist
+        bool isPlayList = false;
+        //para que me recorra todas las lines de la lista lineas
+        foreach (string linea in lineas)
+        {
+            //si a linea es *+++* todas las siguientes son Playlist
+            if (linea == "*+++*")
+            {
+                isPlayList = true;
+            }
+            else
+            {
+                //si no es una playlist (si entra en el else es que no ha entrado en playlist
+                //ya que en el fichero| canciones *+++* listas  |
+                if (!isPlayList)
+                {
+                    songsLineas.Add(linea);
+                }
+                else
+                {
+                    playlistsLineas.Add(linea);
+                }
+            }
+        }
+
+        Songs = new List<Song>();
+        Playlists = new List<Playlist>();
+        foreach (string linea in songsLineas)
+        {
+            Song s = new Song();
+            Songs.Add(s);
+        }
+
+        foreach (string linea in playlistsLineas)
+        {
+            Playlist play = new Playlist();
+            Playlists.Add(play);
+        }
+        Console.WriteLine("Importacion Completada");
+    }
+
+    //para leer el fichero linea por linea y lo almaceno en una lista de string k vaya almacenando cada linea
+    public static List<string> ReadFile(string ruta)
+    {
+        List<string> lineas = new List<string>();
+        try
+        {
+
+            StreamReader archivo = File.OpenText(ruta);
+            string linea = "";
+            while (linea != null)
+            {
+                linea = archivo.ReadLine();
+                //LA ULTIMA LINEA DE UN ARCHIVO SIEMPRE A LEE COMO NULA, LO CUAL CONTROLAMOS ASI
+                if (linea != null)
+                {
+                    lineas.Add(linea);
+                }
+            }
+            archivo.Close();
+
+        }
+        catch (Exception e)
+        {
+
+            Console.WriteLine("No se puede acceder al fichero");
+        }
+        return lineas;
+    }
+
+
+    public static Song GetSongByNameAndAuthor(string name, string author)
+    {
+        Song s = null;
+        foreach (Song  song in Songs)
+        {
+            if (song.Name == name && song.Author == author)
+            {
+                s = song;
+            }
+        }
+        return s;
+    }
 
     #endregion
-
 
     //FUNCIONALIDADES PARTE 3
     #region funcionaldades
     //MAS ANTIGUA
-    public static Song MasAntigua(Playlist play)
+    public static Song MasAntigua(string nombrePlaylist)
     {
         Song res = null;
-        foreach (Song s in play.Songs)
+        foreach (Playlist play in Playlists)
         {
-            if (res == null || s.Year < res.Year)
+            if (play.Name == nombrePlaylist)
             {
-                res = s;
+                foreach(Song s in Songs)
+                {
+                    if(s.Year < res.Year)
+                    {
+                        res = s;
+                    }
+                }                
             }
         }
+        Console.WriteLine("La cancion mas antigua es: " + res);
         return res;
     }
 
@@ -195,41 +297,23 @@ public static class Musify
     #region prueba
     public static void RealizarTest()
     {
-        List<Song> canciones = new List<Song>();
-        Song s = new Song("cancion1", "autor1", 34, 1998, Genre.Latin, 3);
+        //HAY QUE INICIALIZAR LA VARIABLE ESTATICA QUE CREAMOS AL PRINCIPIO (miembro)
+        songs = new List<Song>();
+       // Song s = new Song("cancion1", "autor1", 34, 1998, Genre.Latin, 3);
         Song s2 = new Song("cancion1", "autor1", 67, 2008, Genre.Electronic, 2);
         Song s3 = new Song("cancion3", "autor3", 45, 2004, Genre.Folk, 5);
         Song s4 = new Song("cancion1", "autor1", 34, 2000, Genre.Latin, 3);
-
-        canciones.Add(s);
-        canciones.Add(s2);
-        canciones.Add(s3);
-        canciones.Add(s4);
-
-        List<Playlist> listas = new List<Playlist>();
-        Playlist play1 = new Playlist("NOMBRELISTA", canciones.Count - 1, canciones);
-        Playlist play2 = new Playlist("nombrelista2", canciones.Count - 1, canciones);
-        Playlist play3 = new Playlist("nombreLISTA3", canciones.Count - 1, canciones);
-
-        listas.Add(play1);
-        listas.Add(play2);
-        listas.Add(play3);
-
-
-
-        Export();
-      //  Console.WriteLine("Canciones");
-      //  foreach (Song song in canciones)
-      //  {
-      //      Console.WriteLine(song);
-      //  }
-      //  Console.WriteLine("Listas");
-      //  foreach (Playlist play in listas)
-      //  {
-      //      Console.WriteLine(play);
-      //  }
-
-        
+        Song s5 = new Song("asdihas", "asdiasjd", 56, 1801, Genre.Country, 4);
+       // songs.Add(s);
+        songs.Add(s2);
+        songs.Add(s3);
+        songs.Add(s4);
+        songs.Add(s5);
+       // Musify.Songs = songs;
+        playlists = new List<Playlist>();
+        Playlist play1 = new Playlist("NOMBRELISTA", songs.Count - 1, songs);
+       
+        MasAntigua("play1");
     }
     #endregion
 
