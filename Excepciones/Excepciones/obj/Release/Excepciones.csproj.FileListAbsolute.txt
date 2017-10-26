@@ -1,0 +1,6 @@
+C:\Users\Tarde\Desktop\Workspace\Excepciones\Excepciones\bin\Release\Excepciones.exe.config
+C:\Users\Tarde\Desktop\Workspace\Excepciones\Excepciones\bin\Release\Excepciones.exe
+C:\Users\Tarde\Desktop\Workspace\Excepciones\Excepciones\bin\Release\Excepciones.pdb
+C:\Users\Tarde\Desktop\Workspace\Excepciones\Excepciones\obj\Release\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\Tarde\Desktop\Workspace\Excepciones\Excepciones\obj\Release\Excepciones.exe
+C:\Users\Tarde\Desktop\Workspace\Excepciones\Excepciones\obj\Release\Excepciones.pdb

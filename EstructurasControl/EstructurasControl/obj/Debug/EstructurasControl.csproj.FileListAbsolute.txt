@@ -1,0 +1,7 @@
+C:\Users\Tarde\Desktop\Workspace\EstructurasControl\EstructurasControl\bin\Debug\EstructurasControl.exe.config
+C:\Users\Tarde\Desktop\Workspace\EstructurasControl\EstructurasControl\bin\Debug\EstructurasControl.exe
+C:\Users\Tarde\Desktop\Workspace\EstructurasControl\EstructurasControl\bin\Debug\EstructurasControl.pdb
+C:\Users\Tarde\Desktop\Workspace\EstructurasControl\EstructurasControl\obj\Debug\EstructurasControl.csprojResolveAssemblyReference.cache
+C:\Users\Tarde\Desktop\Workspace\EstructurasControl\EstructurasControl\obj\Debug\EstructurasControl.csproj.CoreCompileInputs.cache
+C:\Users\Tarde\Desktop\Workspace\EstructurasControl\EstructurasControl\obj\Debug\EstructurasControl.exe
+C:\Users\Tarde\Desktop\Workspace\EstructurasControl\EstructurasControl\obj\Debug\EstructurasControl.pdb

@@ -1,0 +1,7 @@
+C:\Users\Tarde\Desktop\Workspace\pruebasArray\pruebasArray\bin\Debug\pruebasArray.exe.config
+C:\Users\Tarde\Desktop\Workspace\pruebasArray\pruebasArray\bin\Debug\pruebasArray.exe
+C:\Users\Tarde\Desktop\Workspace\pruebasArray\pruebasArray\bin\Debug\pruebasArray.pdb
+C:\Users\Tarde\Desktop\Workspace\pruebasArray\pruebasArray\obj\Debug\pruebasArray.csprojResolveAssemblyReference.cache
+C:\Users\Tarde\Desktop\Workspace\pruebasArray\pruebasArray\obj\Debug\pruebasArray.csproj.CoreCompileInputs.cache
+C:\Users\Tarde\Desktop\Workspace\pruebasArray\pruebasArray\obj\Debug\pruebasArray.exe
+C:\Users\Tarde\Desktop\Workspace\pruebasArray\pruebasArray\obj\Debug\pruebasArray.pdb

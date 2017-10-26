@@ -1,0 +1,7 @@
+C:\Users\Tarde\Desktop\Workspace\RRHH\RRHH\obj\Debug\RRHH.csprojResolveAssemblyReference.cache
+C:\Users\Tarde\Desktop\Workspace\RRHH\RRHH\obj\Debug\RRHH.csproj.CoreCompileInputs.cache
+C:\Users\Tarde\Desktop\Workspace\RRHH\RRHH\bin\Debug\RRHH.exe.config
+C:\Users\Tarde\Desktop\Workspace\RRHH\RRHH\bin\Debug\RRHH.exe
+C:\Users\Tarde\Desktop\Workspace\RRHH\RRHH\bin\Debug\RRHH.pdb
+C:\Users\Tarde\Desktop\Workspace\RRHH\RRHH\obj\Debug\RRHH.exe
+C:\Users\Tarde\Desktop\Workspace\RRHH\RRHH\obj\Debug\RRHH.pdb

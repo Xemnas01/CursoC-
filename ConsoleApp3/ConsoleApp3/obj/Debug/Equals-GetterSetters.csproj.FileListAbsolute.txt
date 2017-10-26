@@ -1,0 +1,14 @@
+C:\Users\Tarde\Documents\Visual Studio 2017\Projects\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+C:\Users\Tarde\Documents\Visual Studio 2017\Projects\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+C:\Users\Tarde\Documents\Visual Studio 2017\Projects\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+C:\Users\Tarde\Documents\Visual Studio 2017\Projects\ConsoleApp3\ConsoleApp3\obj\Debug\Equals-GetterSetters.csprojResolveAssemblyReference.cache
+C:\Users\Tarde\Documents\Visual Studio 2017\Projects\ConsoleApp3\ConsoleApp3\obj\Debug\Equals-GetterSetters.csproj.CoreCompileInputs.cache
+C:\Users\Tarde\Documents\Visual Studio 2017\Projects\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+C:\Users\Tarde\Documents\Visual Studio 2017\Projects\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.pdb
+C:\Users\Tarde\Desktop\Workspace\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+C:\Users\Tarde\Desktop\Workspace\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+C:\Users\Tarde\Desktop\Workspace\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+C:\Users\Tarde\Desktop\Workspace\ConsoleApp3\ConsoleApp3\obj\Debug\Equals-GetterSetters.csprojResolveAssemblyReference.cache
+C:\Users\Tarde\Desktop\Workspace\ConsoleApp3\ConsoleApp3\obj\Debug\Equals-GetterSetters.csproj.CoreCompileInputs.cache
+C:\Users\Tarde\Desktop\Workspace\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+C:\Users\Tarde\Desktop\Workspace\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.pdb

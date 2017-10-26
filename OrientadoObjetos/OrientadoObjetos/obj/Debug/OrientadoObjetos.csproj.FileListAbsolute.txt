@@ -1,0 +1,7 @@
+C:\Users\Tarde\Documents\Visual Studio 2017\Projects\OrientadoObjetos\OrientadoObjetos\bin\Debug\OrientadoObjetos.exe.config
+C:\Users\Tarde\Documents\Visual Studio 2017\Projects\OrientadoObjetos\OrientadoObjetos\bin\Debug\OrientadoObjetos.exe
+C:\Users\Tarde\Documents\Visual Studio 2017\Projects\OrientadoObjetos\OrientadoObjetos\bin\Debug\OrientadoObjetos.pdb
+C:\Users\Tarde\Documents\Visual Studio 2017\Projects\OrientadoObjetos\OrientadoObjetos\obj\Debug\OrientadoObjetos.csprojResolveAssemblyReference.cache
+C:\Users\Tarde\Documents\Visual Studio 2017\Projects\OrientadoObjetos\OrientadoObjetos\obj\Debug\OrientadoObjetos.csproj.CoreCompileInputs.cache
+C:\Users\Tarde\Documents\Visual Studio 2017\Projects\OrientadoObjetos\OrientadoObjetos\obj\Debug\OrientadoObjetos.exe
+C:\Users\Tarde\Documents\Visual Studio 2017\Projects\OrientadoObjetos\OrientadoObjetos\obj\Debug\OrientadoObjetos.pdb

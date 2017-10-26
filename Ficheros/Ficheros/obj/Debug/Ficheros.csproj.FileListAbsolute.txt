@@ -1,0 +1,7 @@
+C:\Users\Tarde\Desktop\Workspace\Ficheros\Ficheros\bin\Debug\Ficheros.exe.config
+C:\Users\Tarde\Desktop\Workspace\Ficheros\Ficheros\bin\Debug\Ficheros.exe
+C:\Users\Tarde\Desktop\Workspace\Ficheros\Ficheros\bin\Debug\Ficheros.pdb
+C:\Users\Tarde\Desktop\Workspace\Ficheros\Ficheros\obj\Debug\Ficheros.csprojResolveAssemblyReference.cache
+C:\Users\Tarde\Desktop\Workspace\Ficheros\Ficheros\obj\Debug\Ficheros.csproj.CoreCompileInputs.cache
+C:\Users\Tarde\Desktop\Workspace\Ficheros\Ficheros\obj\Debug\Ficheros.exe
+C:\Users\Tarde\Desktop\Workspace\Ficheros\Ficheros\obj\Debug\Ficheros.pdb

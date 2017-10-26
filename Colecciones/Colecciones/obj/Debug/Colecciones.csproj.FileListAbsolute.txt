@@ -1,0 +1,6 @@
+C:\Users\Tarde\Desktop\Workspace\Colecciones\Colecciones\obj\Debug\Colecciones.csproj.CoreCompileInputs.cache
+C:\Users\Tarde\Desktop\Workspace\Colecciones\Colecciones\bin\Debug\Colecciones.exe.config
+C:\Users\Tarde\Desktop\Workspace\Colecciones\Colecciones\bin\Debug\Colecciones.exe
+C:\Users\Tarde\Desktop\Workspace\Colecciones\Colecciones\bin\Debug\Colecciones.pdb
+C:\Users\Tarde\Desktop\Workspace\Colecciones\Colecciones\obj\Debug\Colecciones.exe
+C:\Users\Tarde\Desktop\Workspace\Colecciones\Colecciones\obj\Debug\Colecciones.pdb

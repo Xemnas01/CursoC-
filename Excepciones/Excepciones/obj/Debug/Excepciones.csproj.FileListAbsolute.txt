@@ -1,0 +1,7 @@
+C:\Users\Tarde\Desktop\Workspace\Excepciones\Excepciones\bin\Debug\Excepciones.exe.config
+C:\Users\Tarde\Desktop\Workspace\Excepciones\Excepciones\bin\Debug\Excepciones.exe
+C:\Users\Tarde\Desktop\Workspace\Excepciones\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\Tarde\Desktop\Workspace\Excepciones\Excepciones\obj\Debug\Excepciones.csprojResolveAssemblyReference.cache
+C:\Users\Tarde\Desktop\Workspace\Excepciones\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\Tarde\Desktop\Workspace\Excepciones\Excepciones\obj\Debug\Excepciones.exe
+C:\Users\Tarde\Desktop\Workspace\Excepciones\Excepciones\obj\Debug\Excepciones.pdb

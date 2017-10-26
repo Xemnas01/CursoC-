@@ -1,0 +1,7 @@
+C:\Users\Tarde\Desktop\Workspace\Static\Static\bin\Debug\Static.exe.config
+C:\Users\Tarde\Desktop\Workspace\Static\Static\bin\Debug\Static.exe
+C:\Users\Tarde\Desktop\Workspace\Static\Static\bin\Debug\Static.pdb
+C:\Users\Tarde\Desktop\Workspace\Static\Static\obj\Debug\EjercicioClase1.csprojResolveAssemblyReference.cache
+C:\Users\Tarde\Desktop\Workspace\Static\Static\obj\Debug\EjercicioClase1.csproj.CoreCompileInputs.cache
+C:\Users\Tarde\Desktop\Workspace\Static\Static\obj\Debug\Static.exe
+C:\Users\Tarde\Desktop\Workspace\Static\Static\obj\Debug\Static.pdb

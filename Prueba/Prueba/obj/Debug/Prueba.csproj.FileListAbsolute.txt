@@ -1,0 +1,7 @@
+C:\Users\Tarde\Desktop\Workspace\Prueba\Prueba\obj\Debug\Prueba.csprojResolveAssemblyReference.cache
+C:\Users\Tarde\Desktop\Workspace\Prueba\Prueba\obj\Debug\Prueba.csproj.CoreCompileInputs.cache
+C:\Users\Tarde\Desktop\Workspace\Prueba\Prueba\bin\Debug\Prueba.exe.config
+C:\Users\Tarde\Desktop\Workspace\Prueba\Prueba\bin\Debug\Prueba.exe
+C:\Users\Tarde\Desktop\Workspace\Prueba\Prueba\bin\Debug\Prueba.pdb
+C:\Users\Tarde\Desktop\Workspace\Prueba\Prueba\obj\Debug\Prueba.exe
+C:\Users\Tarde\Desktop\Workspace\Prueba\Prueba\obj\Debug\Prueba.pdb
